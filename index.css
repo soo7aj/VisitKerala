@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+    font-family: 'Slabo 27px', serif;
+    color: black;
+}
+.dropdown{
+    padding-right: 30px;
+}
+footer{
+    color: black;
+    background-color: black;
+}

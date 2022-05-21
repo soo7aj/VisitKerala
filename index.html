@@ -12,90 +12,33 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="visitker.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="bgindex.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
   <title>visitKerala</title>
+  <link rel="icon" href="./BGIMG/4.png" type="image/x-icon">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-  <nav class="navbar navbar-dark bg-white fixed-top float-sm-6 ">
-    <div class="container float-sm-start">
-      <a class="navbar-brand" href="visitkerala.com">
-        <img src="./IMG/Kerala-logo.png" alt="" width="100" height="100"></a>
-      <ul class="nav justify-content-end ">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-            aria-expanded="false">Places to go</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Cities</a></li>
-            <li><a class="dropdown-item" href="#">Beaches</a></li>
-            <li><a class="dropdown-item" href="#">Islands</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown ">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-            aria-expanded="false">Things to do</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Culture</a></li>
-            <li><a class="dropdown-item" href="#">Adventure</a></li>
-            <li><a class="dropdown-item" href="#">Nature</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-            aria-expanded="false">Plan your trip</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Where to Stay</a></li>
-            <li><a class="dropdown-item" href="#">VISA on Arrival</a></li>
-            <li><a class="dropdown-item" href="#">Border Pass</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">E-brochure</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-            aria-expanded="false">About Kerala</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">YOGA</a></li>
-            <li><a class="dropdown-item" href="#">Kerala Cuisine</a></li>
-            <li><a class="dropdown-item" href="#">Ayurveda</a></li>
-            <li><a class="dropdown-item" href="#">Festivals</a></li>
-          </ul>
-        </li>
-        <div class="dropdown">
-          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
-            data-bs-auto-close="outside">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-              class="bi bi-person-circle" viewBox="0 0 16 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-              <path fill-rule="evenodd"
-                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-            </svg>
-          </button>
-          <form class="dropdown-menu p-4">
-            <div class="mb-3">
-              <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
-            </div>
-            <div class="mb-3">
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-                <label class="form-check-label" for="dropdownCheck2">
-                  Remember me
-                </label>
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </form>
-        </div>
+  <nav class="navbar">
+    <a class="navbar-brand" href="visitkerala.com">
+      <img src="./IMG/Kerala-logo.png" alt="" width="100" height="100"></a>
+    <div class="brand-title">Visit Kerala</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">Places to go</a></li>
+        <li><a href="#">Things to do</a></li>
+        <li><a href="#">Plan your trip</a></li>
       </ul>
     </div>
   </nav>
@@ -107,10 +50,10 @@
       <!-- Single item -->
       <div class="carousel-item active">
         <video class="img-fluid" autoplay loop muted>
-          <source src="./IMG/mixkit-clouds-and-blue-sky-2408.mp4" type="video/mp4" />
+          <source src="./IMG/video.mp4" type="video/mp4" />
         </video>
         <div class="carousel-caption d-none d-md-block">
-          <h1 style="color:rgb(0, 0, 0); font-family:Georgia, 'Times New Roman', Times, serif">Welcome to God's Own
+          <h1 style="color:rgb(255, 255, 255); font-family:Georgia, 'Times New Roman', Times, serif">Welcome to God's Own
             Country!</h1>
           <p>
           </p>
@@ -121,7 +64,7 @@
   <!-- Carousel wrapper -->
   <div class="container">
     <div class="row">
-      <div class="col-4" style="padding-top: 10px;">
+      <div class="col-sm-4" style="padding-top: 10px;">
         <div class="card" style="width: 18rem;">
           <img src="./cardpics/Q8ouFvaeGcusJ6duL047KNUAAlOejE2pRs3pNVvc.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -132,30 +75,30 @@
           </div>
         </div>
       </div>
-      <div class="col-4" style="padding-top: 10px;">
+      <div class="col-sm-4" style="padding-top: 10px;">
         <div class="card" style="width: 18rem;">
           <img src="./cardpics/wp9391525 (1).jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Explore Kerala</h5>
             <p class="card-text">God’s own country’ is full of scenic and breathtaking views. But aside from these,
-              there is a tonne to do when you enter the mind-bogglingly green landscape of Kerala.. </p>
+              there is a tonne to do when you enter the mind-bogglingly green landscape.. </p>
             <a href="#" class="btn btn-primary">EXPLORE</a>
           </div>
         </div>
       </div>
-      <div class="col-4" style="padding-top: 10px;">
+      <div class="col-sm-4" style="padding-top: 10px;">
         <div class="card" style="width: 18rem;">
           <img src="./cardpics/pexels-photo-6272196 (1).webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Cultural Capital</h5>
             <p class="card-text">A melange of culinary
-              experiences, the beautiful beaches, the serene backwaters, and the massage & various forts, palaces,
-              museums, monuments and pilgrim centers..</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+              experiences, the beautiful beaches, the serene backwaters,forts, palaces,
+              museums, monuments & pilgrim centers..</p>
+            <a href="#" class="btn btn-primary">EXPLORE</a>
           </div>
         </div>
       </div>
-      <div class="col-4" style="padding-top: 50px;">
+      <div class="col-sm-4" style="padding-top: 50px;">
         <div class="card" style="width: 18rem;">
           <img
             src="./cardpics/india-visa-stamp-in-passport-with-visa-text-passport-traveling-abroad-concept-travel-to-india-concept-selective-focus3d-rendering-immigration-an-2DFYEYN (1).jpg"
@@ -168,7 +111,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4" style="padding-top: 50px;">
+      <div class="col-sm-4" style="padding-top: 50px;">
         <div class="card" style="width: 18rem;">
           <img src="./cardpics/photo-1491497895121-1334fc14d8c9 (1).jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -180,13 +123,13 @@
           </div>
         </div>
       </div>
-      <div class="col-4" style="padding-top: 50px;">
+      <div class="col-sm-4" style="padding-top: 50px;">
         <div class="card" style="width: 18rem;">
           <img src="./cardpics/istockphoto-477033044-170667a (1).jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Tour Packages</h5>
             <p class="card-text">We want our guests to have the best and safest time possible when they visit
-              Kerala.Hence, we provide you with a list of accredited tourist guides. Click to know more.</p>
+              Kerala.Hence, we provide you with a list of accredited tourist guides.</p>
             <a href="#" class="btn btn-primary">EXPLORE</a>
           </div>
         </div>
@@ -195,7 +138,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-6" style="padding-top: 50px;">
+      <div class="col-sm-6" style="padding-top: 50px;">
         <span class="border-0">
           <div class="card border-0 bg-dark text-white">
             <img src="./cardpics/onasadhya_a_feast_of_delicacies20150728095634_553_1.jpg" class="card-img" alt="...">
@@ -210,7 +153,7 @@
           </div>
         </span>
       </div>
-      <div class="col-6" style="padding-top: 50px; padding-bottom: 30px;">
+      <div class="col-sm-6" style="padding-top: 50px; padding-bottom: 30px;">
         <div class="card border-0 bg-dark text-warning">
           <img src="./cardpics/cover-image-of-Vadakkunnathan-Temple_5th-dec (1).webp" class="card-img" alt="...">
           <div class="card-img-overlay">

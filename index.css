@@ -69,8 +69,8 @@ body {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 21px;
+    width: 30px;0
+    height: 20px;
 }
 
 .toggle-button .bar {
@@ -111,4 +111,7 @@ body {
     .navbar-links.active {
         display: flex;
     }
+}
+video{
+    position: relative;
 }
